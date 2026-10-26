@@ -1,14 +1,5 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 node_modules/
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
 
 # testing
 coverage/
@@ -26,16 +17,10 @@ build/
 *.pem
 
 # logs
-*.log
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+*.log*
 
 # database dumps (may contain production/dev data)
-backend/database/backups/
+apps/backend/database/backups/
 *.dump
 
 # env files (can opt-in for committing if needed)
@@ -48,10 +33,8 @@ backend/database/backups/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-.env*.local
 Panduan/
 .aider*
-server.log
 assistant-memory/
 storage/uploads/
 # storage private: gambar psikotes, snapshot proctoring, rekaman interview
@@ -61,5 +44,8 @@ storage/private/
 .worktrees/
 
 # go
-backend/bin/
+apps/backend/bin/
 reports/pengembangan/
+
+# Workspace task cache
+.turbo/

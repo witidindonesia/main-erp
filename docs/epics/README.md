@@ -1,5 +1,7 @@
 # Epics — Status Registry
 
+> Arsip status proyek sebelumnya. Status dan target deployment di bawah bukan status repository template saat ini. Gunakan [indeks dokumentasi](../README.md) untuk panduan aktif.
+
 Registry kanonik status epic (lihat `~/.agentic-workflows/claude-codex-docs-workflow.md`
 untuk vocabulary status: backlog · on-progress · coding · review · testing ·
 deploying-dev · ready-for-qa · blocked · done).

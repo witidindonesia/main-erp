@@ -34,7 +34,7 @@ const logger = pino({ level: process.env.WA_LOG_LEVEL || "warn" });
  * supaya pesan tidak hilang saat app sedang restart/deploy.
  */
 const APP_INBOUND_URL =
-  process.env.APP_INBOUND_URL || "http://127.0.0.1:3459/api/wa/inbound";
+  process.env.APP_INBOUND_URL || "http://127.0.0.1:3000/api/wa/inbound";
 const INBOUND_TOKEN = process.env.WA_GATEWAY_TOKEN;
 // Backoff bertingkat lalu MENETAP di 60 dtk — tidak pernah menyerah selama
 // antrean belum penuh, supaya jendela deploy/restart app (bisa >1 menit)

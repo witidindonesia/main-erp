@@ -1,5 +1,7 @@
 # Runbook — Gateway WhatsApp Mandiri (`services/wa-gateway`)
 
+> Arsip operasional proyek lama. Konfigurasi PM2 khusus klien sudah dihapus dari template. Untuk setup lokal dan environment yang berlaku sekarang, gunakan [panduan gateway](../../services/wa-gateway/README.md).
+
 Engine WhatsApp milik sendiri berbasis **Baileys**, menggantikan Fonnte.
 Tanpa langganan, tanpa pihak ketiga, dan pesan OTP tidak transit di server
 orang lain.

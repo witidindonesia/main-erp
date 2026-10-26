@@ -1,5 +1,7 @@
 # Modules — Registry Deploy
 
+> Arsip proses deployment proyek lama; template tidak memiliki target deployment. Daftar ini dipertahankan sebagai referensi sampai audit aplikasi. Lihat [panduan aktif](../README.md).
+
 Registry modul yang **bisa dipanggil namanya** saat ingin dinaikkan ke
 production. Selama status masih `dev`, modul hanya ada di branch
 `development` dan **tidak** dipromosikan ke `production`.

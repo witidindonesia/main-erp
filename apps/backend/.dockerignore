@@ -1,0 +1,12 @@
+# Backend sources, local dependency snapshots and migrations reach the builder.
+.env
+.env.*
+!.env.example
+bin/
+**/*_test.go
+database/node_modules
+database/seeders
+database/scripts
+database/sql
+database/backups
+internal/platform/READY

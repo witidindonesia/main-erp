@@ -1,0 +1,12 @@
+{
+  "name": "@mizu/backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "go run ./cmd/api",
+    "build": "make build",
+    "lint": "make lint",
+    "test": "go test ./... && go -C third_party/compat test ./...",
+    "audit": "make audit"
+  }
+}

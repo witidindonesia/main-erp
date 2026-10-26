@@ -1,9 +1,9 @@
 {
-  "name": "wa-gateway",
+  "name": "@mizu/wa-gateway",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Gateway WhatsApp mandiri (Baileys) untuk OTP portal member, bot booking Paddy Studio & notifikasi Paddy",
+  "description": "Gateway WhatsApp opsional untuk OTP, pesan masuk, dan notifikasi aplikasi.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
